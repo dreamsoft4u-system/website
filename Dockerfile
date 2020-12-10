@@ -1,2 +1,5 @@
-FROM httpd:2.4
-ADD . /var/www/html
+FROM tomcat:latest
+
+ADD . /usr/local/tomcat/webapps
+
+CMD ["catalina.sh", "run"]
