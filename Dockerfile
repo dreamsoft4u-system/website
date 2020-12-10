@@ -1,4 +1,4 @@
-FROM tomcat:8
+FROM tomcat:latest
 
 ADD /usr/local/tomcat/webapps/
 
